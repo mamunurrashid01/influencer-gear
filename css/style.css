@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+ 
+/*header container style stsrt*/
+.menu-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+.header-title{
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    padding:10px ;
+}
+.menu .item{
+    margin-right: 5px;
+}
+.menu .list-item{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+/*header container style end*/
+/*banner container style*/
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 25px;
+}
+.banner-header{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+.banner-description{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.banner-title{
+    max-width: 50%;
+}
+.bg-primary{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    padding: 8px 10px;
+}
+.banner-image{
+    background-color: rgb(250, 245, 250);
+    border-radius: 50%;
+    border: 1px solid rgb(216, 174, 216);
+    max-width: 50%;
+}
+.banner-image img{
+    height: 200px;
+    width: 200px;
+}
+
+.fa-solid.fa-arrow-right {
+    padding-left: 4px;
+}
+/*banner container style*/
