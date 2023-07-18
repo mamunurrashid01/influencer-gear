@@ -1,0 +1,61 @@
+
+
+@media screen and (max-width: 576px ){
+    
+    .menu-section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        text-align: center;
+        margin-right: 49px;
+    }
+    
+    .banner-container{
+        flex-direction: column;
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .banner-title{
+        margin-bottom: 15px;
+    }
+    .banner-image img{
+        height: 100px;
+        width: 100px;
+    }
+    .sponsor-section{
+        max-width: 100%;
+        text-align: center;
+    }
+    .cards-container{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 576px ) and (max-width: 768px){
+    
+    .menu-section{
+        flex-direction: column;
+    }
+    .cards-container{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 768px ) and (max-width: 992px){
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+        padding: 5px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 992px ) and (max-width: 1200px){
+    .cards-container{
+        max-width: 100%;
+        padding: 5px 10px;
+
+    }
+}
